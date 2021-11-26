@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #2babd4;
+    box-sizing: cover;
+    width: 1920px;
+    height: 937px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 15vh;
+}
+
+.logo {
+    width: 160px;
+    cursor: pointer;
+}
+
+.nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: seashell;
+}
+
+.nav2{
+    flex: 1;
+    padding-left:650px;
+}
+
+.nav2 ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction:column;
+    height: 50%;
+    width: 90%;
+    left: 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content h1{
+    display: flex;
+    font-size: 60px;
+    font-weight: 100;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.content p{
+    display: flex;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.content .btn{
+    display:flex;
+    justify-content: center;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;    
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    }
+
+/*
+.feature {
+    height: 50%;
+    position: absolute;
+    bottom: 0; 
+    right: 0px;
+}
+
+ /* style para las flechas 
+.iconos {
+    margin-top: 40px;
+    display: flex;
+}
+
+.iconos img{
+    width: 40px;
+    margin-right: 25px;
+} */
